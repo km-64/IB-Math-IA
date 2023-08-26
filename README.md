@@ -44,7 +44,7 @@ $$E(X_r) = E(X_1) \cdot r\left( 1 - p(0) \right)^{r-1}$$
 
 This can then be plotted on a graph along with the results of a simulation:
 <p align="center">
-  <img src="imgs/img3.png" width="60%">
+  <img src="imgs/img3.png" width="75%">
 </p>
 
 Using this, we can estimate the amount of rolls needed to win a game:
