@@ -15,7 +15,7 @@ were not erroneous. Additionally I extended my investigation with biased dice to
 observe how that affected the strategies.
 
 ## A Summary of the Results
-Here is a summary... LINK TO PDF
+This is a summary of the contents of [this document](internal-assessment.pdf)
 ### The rules of the game
 The game can be played by two or more players, where the winner reaches a total score
 of 100 points. The player can roll as many times as they wish in a single turn, with
@@ -29,8 +29,8 @@ Shown visually, here are the score outcomes of a single roll accompanied by a ta
 the proability distribution and its expected value $E(X_1)$.
 
 <p align="center">
-  <img src="https://github.com/km-64/Math-IA/assets/79924100/96f68283-fbf0-4300-8aae-d7008442942b" width="500">
-  <img src="https://github.com/km-64/Math-IA/assets/79924100/c5bc1d92-c94b-4be9-a667-be0970d442a7" width="500">
+  <img src="https://github.com/km-64/Math-IA/assets/79924100/96f68283-fbf0-4300-8aae-d7008442942b" width="50%">
+  <img src="https://github.com/km-64/Math-IA/assets/79924100/c5bc1d92-c94b-4be9-a667-be0970d442a7" width="50%">
 </p>
 
 $$E(X_1) = \sum_{x=0}^{12} x \times P(X_1=x) = \frac{50}{9} \approx 5.56$$
@@ -44,7 +44,7 @@ $$E(X_r) = E(X_1) \cdot r\left( 1 - p(0) \right)^{r-1}$$
 
 This can then be plotted on a graph along with the results of a simulation:
 <p align="center">
-  <img src="https://github.com/km-64/Math-IA/assets/79924100/6702ecf7-55e8-4fc9-a35d-8d62989a5ef7" width="750">
+  <img src="https://github.com/km-64/Math-IA/assets/79924100/6702ecf7-55e8-4fc9-a35d-8d62989a5ef7" width="60%">
 </p>
 
 Using this, we can estimate the amount of rolls needed to win a game:
@@ -54,7 +54,7 @@ Finally the average amount of rolls required to win a game can be plotted and th
 which will be the optimal _target roll_ quantity, which turns out to be 3 rolls.
 
 <p align="center">
-  <img src="https://github.com/km-64/Math-IA/assets/79924100/8b4d5210-2ad5-4015-9a0c-e49afc491ec0" width="750">
+  <img src="https://github.com/km-64/Math-IA/assets/79924100/8b4d5210-2ad5-4015-9a0c-e49afc491ec0" width="60%">
 </p>
 
 ### Strategy 2: Optimal Target Score
@@ -78,13 +78,13 @@ E(X_u) = \sum_{i=s}^{s+12} i \cdot P(X_u=i) \qquad u= \lceil \frac s 4 \rceil \t
 
 Again this can be plotted on a graph along with some results from the simulation:
 <p align="center">
-  <img src="https://github.com/km-64/Math-IA/assets/79924100/aadb8c27-f1e9-4e4a-b834-31f08767e921" width="750">
+  <img src="https://github.com/km-64/Math-IA/assets/79924100/aadb8c27-f1e9-4e4a-b834-31f08767e921" width="60%">
 </p>
 
 Next an game can be simulated to determine the optimal target score to minimise the number of turns required
 to win the game. Again this can be plotted on a graph along with some results from the simulation:
 <p align="center">
-  <img src="https://github.com/km-64/Math-IA/assets/79924100/1d2742bb-f1da-4df8-95a4-1cfd0bf8fb80" width="750">
+  <img src="https://github.com/km-64/Math-IA/assets/79924100/1d2742bb-f1da-4df8-95a4-1cfd0bf8fb80" width="60%">
 </p>
 
 As can be seen from both plots, the optimal target score is 19.
@@ -94,12 +94,12 @@ I thought it would be interesting to see if biased dice affected, so I generated
 distributions:
 
 <p align="center">
-  <img src="https://github.com/km-64/Math-IA/assets/79924100/9d429014-6972-4ede-9694-f41892407308" width="600">
+  <img src="https://github.com/km-64/Math-IA/assets/79924100/9d429014-6972-4ede-9694-f41892407308" width="50%">
 </p>
 
 This had the following effects on the optimal target rolls and target scores:
 <p align="center">
-  <img src="https://github.com/km-64/Math-IA/assets/79924100/d2fd0845-a52e-46f4-b64d-d72bc8792047" width="750">
+  <img src="https://github.com/km-64/Math-IA/assets/79924100/d2fd0845-a52e-46f4-b64d-d72bc8792047" width="60%">
 </p>
 
 It can be seen that dice that are weighted towards higher values have much higher expected values, but
@@ -109,7 +109,7 @@ for the lower-biased dice is $r = 2$, unbiased dice is $r = 3$, center-biased di
 die is $r = 10$.
 
 <p align="center">
-  <img src="https://github.com/km-64/Math-IA/assets/79924100/7c821bfb-5d8d-420c-908a-820c3e6bced7" width="750">
+  <img src="https://github.com/km-64/Math-IA/assets/79924100/7c821bfb-5d8d-420c-908a-820c3e6bced7" width="60%">
 </p>
 
 As seen in the plot, the dice biased upwards have much higher expected values and occur at higher
