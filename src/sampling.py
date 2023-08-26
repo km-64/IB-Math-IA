@@ -3,8 +3,8 @@ from numba import njit
 
 
 # Unbiased die
-#p_d1 = [1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6]
-#p_d2 = [1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6]
+p_d1 = [1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6]
+p_d2 = [1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6]
 
 # Lower-biased die
 #p_d1 = [i/21 for i in reversed(range(1,6+1))]
