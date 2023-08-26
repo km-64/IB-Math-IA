@@ -30,7 +30,7 @@ the proability distribution and its expected value $E(X_1)$.
 
 <p align="center">
   <img src="imgs/img1.png" width="60%">
-  <img src="imgs/img1.png" width="60%">
+  <img src="imgs/img2.png" width="60%">
 </p>
 
 $$E(X_1) = \sum_{x=0}^{12} x \times P(X_1=x) = \frac{50}{9} \approx 5.56$$
