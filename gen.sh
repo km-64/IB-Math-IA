@@ -16,25 +16,25 @@ uncomment() {
 
 uncomment 6 src/sampling.py
 uncomment 7 src/sampling.py
-python src/tables.py '../tables/unbiased'
+python src/tables.py 'tables/unbiased'
 comment 6 src/sampling.py
 comment 7 src/sampling.py
 
 uncomment 10 src/sampling.py
 uncomment 11 src/sampling.py
-python src/tables.py '../tables/lowerbiased'
+python src/tables.py 'tables/lowerbiased'
 comment 10 src/sampling.py
 comment 11 src/sampling.py
 
 uncomment 14 src/sampling.py
 uncomment 15 src/sampling.py
-python src/tables.py '../tables/centrebiased'
+python src/tables.py 'tables/centrebiased'
 comment 14 src/sampling.py
 comment 15 src/sampling.py
 
 
 uncomment 18 src/sampling.py
 uncomment 19 src/sampling.py
-python src/tables.py '../tables/upperbiased'
+python src/tables.py 'tables/upperbiased'
 comment 18 src/sampling.py
 comment 19 src/ampling.py
