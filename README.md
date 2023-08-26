@@ -29,8 +29,8 @@ Shown visually, here are the score outcomes of a single roll accompanied by a ta
 the proability distribution and its expected value $E(X_1)$.
 
 <p align="center">
-  <img src="imgs/img1.png" width="50%">
-  <img src="imgs/img1.png" width="50%">
+  <img src="imgs/img1.png" width="60%">
+  <img src="imgs/img1.png" width="60%">
 </p>
 
 $$E(X_1) = \sum_{x=0}^{12} x \times P(X_1=x) = \frac{50}{9} \approx 5.56$$
@@ -54,7 +54,7 @@ Finally the average amount of rolls required to win a game can be plotted and th
 which will be the optimal _target roll_ quantity, which turns out to be 3 rolls.
 
 <p align="center">
-  <img src="imgs/img4.png" width="60%">
+  <img src="imgs/img4.png" width="75%">
 </p>
 
 ### Strategy 2: Optimal Target Score
@@ -78,13 +78,13 @@ E(X_u) = \sum_{i=s}^{s+12} i \cdot P(X_u=i) \qquad u= \lceil \frac s 4 \rceil \t
 
 Again this can be plotted on a graph along with some results from the simulation:
 <p align="center">
-  <img src="imgs/img5.png" width="60%">
+  <img src="imgs/img5.png" width="75%">
 </p>
 
 Next an game can be simulated to determine the optimal target score to minimise the number of turns required
 to win the game. Again this can be plotted on a graph along with some results from the simulation:
 <p align="center">
-  <img src="imgs/img6.png" width="60%">
+  <img src="imgs/img6.png" width="75%">
 </p>
 
 As can be seen from both plots, the optimal target score is 19.
@@ -94,12 +94,12 @@ I thought it would be interesting to see if biased dice affected, so I generated
 distributions:
 
 <p align="center">
-  <img src="imgs/imgs7.png" width="50%">
+  <img src="imgs/img7.png" width="60%">
 </p>
 
 This had the following effects on the optimal target rolls and target scores:
 <p align="center">
-  <img src="imgs/img8.png" width="60%">
+  <img src="imgs/img8.png" width="75%">
 </p>
 
 It can be seen that dice that are weighted towards higher values have much higher expected values, but
@@ -109,7 +109,7 @@ for the lower-biased dice is $r = 2$, unbiased dice is $r = 3$, center-biased di
 die is $r = 10$.
 
 <p align="center">
-  <img src="imgs/img9.png" width="60%">
+  <img src="imgs/img9.png" width="75%">
 </p>
 
 As seen in the plot, the dice biased upwards have much higher expected values and occur at higher
